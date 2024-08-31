@@ -1,5 +1,6 @@
-<h1 align="center">Thanks for stopping by! 👋
-<br>I'm Hardik Kotangale—👋 take a look around and explore my work.</h1>
+<h1 align="center">🙏Thanks for stopping by! 🙏
+<br>I'm Hardik Kotangale
+<br>Take a look around and explore my work.</h1>
 
 
 <!--

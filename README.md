@@ -1,5 +1,6 @@
-**Thanks for stopping by!** 👋  
-I'm **Hardik Kotangale**—👋 take a look around and explore my work.
+<h1 align="center">Thanks for stopping by! 👋
+<br>I'm Hardik Kotangale—👋 take a look around and explore my work.</h1>
+
 
 <!--
 **HardikKotangale/HardikKotangale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

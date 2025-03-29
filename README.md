@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Hardik Kotangale!
 
 🎓 **Graduate Student | Computer Science @ Indiana University Bloomington (Aug 2024 – July 2026)**  
-📍 Based in Bloomington, IN | 📧 [hkotanga@iu.edu](mailto:hkotanga@iu.edu)  
+📍 Based in Bloomington, IN | 📧 [hkotanga@iu.edu](mailto:hardik.kotangale@gamil.com)  
 🌐 [LinkedIn](https://www.linkedin.com/in/hardik-kotangale/) • [GitHub](https://github.com/HardikKotangale)
 
 ---
@@ -52,19 +52,54 @@ I love building practical and impactful tech — from AI-driven systems and full
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap" alt="Leetcode Stats" />
 </div>
-## 💼 Featured Projects
 
-### 🧪 [Crystal Cavern Exploration (Unity + Shader)](https://github.com/HardikKotangale)
-> An immersive 3D environment with interactive crystals, dynamic lighting, GPU shaders, and HUD.
+---
+### 💎 Crystal Cavern Exploration (Unity + Shader)  
+> **Indiana University Bloomington**  
+> Developed an immersive 3D Unity scene with GPU-shaded crystal clusters, torus knot structures, interactive lighting, and camera systems. Enabled user control through object interaction and dynamic shader manipulation for realistic rendering.
 
-### 🧠 [Blind-O-Voice (Android App)](https://github.com/HardikKotangale)
-> Android app for visually impaired users — supports voice-controlled calling, messaging, and alarms.
+---
 
-### 📚 [LMS Web App (React + Firebase)](https://github.com/HardikKotangale)
-> A responsive and accessible learning management system built with Firebase and React Bootstrap.
+### 🔁 Point of Contact Collaboration API (Python + Firebase)  
+> **LuddyHackathon 2024**  
+> Built a Python-based REST API with Firebase for real-time contact query handling based on product/repository names. Achieved a 30% speed boost in query time and enhanced cross-team collaboration by 25%.
 
-### 🔁 [Point of Contact API (Hackathon)](https://github.com/HardikKotangale)
-> Real-time Firebase API for internal organizational collaboration based on project or repo lookup.
+---
+
+### 📚 Learning Management System (ReactJS + Firebase)  
+> **Oytie Learning IT Training Academy, Pune**  
+> Designed a dynamic and secure LMS web app using React Bootstrap and Firebase for real-time data sync and user authentication. Achieved 95% increase in user engagement and streamlined student-instructor interaction.
+
+---
+
+### 📷 Automatic Number Plate Recognition (Python + OpenCV)  
+> **AISSMS IOIT, Pune**  
+> Engineered a Python application using OpenCV and OCR to identify and extract license plate data from images. Scalable to large datasets and optimized for accuracy and speed using edge detection and image preprocessing techniques.
+
+---
+
+### 🧠 Blind-O-Voice (Android + Voice APIs)  
+> **AISSMS IOIT, Pune**  
+> Spearheaded the creation of an Android app tailored for visually impaired users. Enabled voice-based interaction for messaging, calling, and alarms. Boosted accessibility and independence for users through extensive user testing and optimization.
+
+---
+
+### 🖌️ AI-Paint (Python + OpenCV + Gesture Recognition)  
+> **AISSMS IOIT, Pune**  
+> Developed an AI-powered paint app that recognizes hand gestures for brush control and color selection using computer vision. Improved responsiveness by 25% and reduced gesture misclassification through ML techniques.
+
+---
+
+### 🛒 Luv2Shop – E-commerce Platform (AngularJS + REST API)  
+> **AISSMS IOIT, Pune**  
+> Built a feature-rich shopping platform with AngularJS frontend and RESTful API backend. Designed responsive UI, integrated order and customer handling systems, and ensured smooth data flow between components.
+
+---
+
+### 🌐 CESA Department Website (HTML, CSS, JS, SQL)  
+> **AISSMS IOIT, Pune**  
+> Led a 5–6 member team to build the department’s website with dynamic team listings, event displays, and testimonials. Focused on modular design, SQL-backed data management, accessibility, and cross-browser compatibility.
+
 
 ---
 

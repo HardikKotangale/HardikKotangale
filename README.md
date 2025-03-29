@@ -127,7 +127,7 @@ I love building practical and impactful tech — from AI-driven systems and full
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HardikKotangale&layout=compact&theme=default)
 
 ### 📈 Contribution Activity
-[GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=HardikKotangale&theme=github)
+![GitHub Stats](https://github-readme-activity-graph.vercel.app/graph?username=HardikKotangale&theme=github)
 
 ---
 

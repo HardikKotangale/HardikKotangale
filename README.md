@@ -12,12 +12,15 @@ I’m a passionate software engineer and data enthusiast pursuing my Master’s 
 I love building practical and impactful tech — from AI-driven systems and full-stack apps to 3D interactive visualizations.
 
 ---
+
 ## 🧩 Problem Solving Journey
 
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap" alt="Leetcode Stats" />
 </div>
+
 ---
+
 ## 🛠️ Skills & Tech Stack
 
 ### 👨‍💻 Programming Languages
@@ -53,6 +56,9 @@ I love building practical and impactful tech — from AI-driven systems and full
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ---
+
+## 💼 Featured Projects
+
 ### 💎 Crystal Cavern Exploration (Unity + Shader)  
 > **Indiana University Bloomington**  
 > Developed an immersive 3D Unity scene with GPU-shaded crystal clusters, torus knot structures, interactive lighting, and camera systems. Enabled user control through object interaction and dynamic shader manipulation for realistic rendering.

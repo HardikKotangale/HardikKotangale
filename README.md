@@ -1,6 +1,6 @@
 <h1 align="center">🙏Thanks for stopping by! 🙏
 <br>I'm Hardik Kotangale
-<br>Take a look around and explore my work.</h1>
+![Leetcode Stats](https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap)
 
 
 <!--

@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Hardik Kotangale!
 
 🎓 **Graduate Student | Computer Science @ Indiana University Bloomington (Aug 2024 – July 2026)**  
-📍 Based in Bloomington, IN | 📧 [hkotanga@iu.edu](mailto:hardik.kotangale@gamil.com)  
+📍 Based in Bloomington, IN | 📧 [hardik.kotangale@gamil.com](mailto:hardik.kotangale@gamil.com)  
 🌐 [LinkedIn](https://www.linkedin.com/in/hardik-kotangale/) • [GitHub](https://github.com/HardikKotangale)
 
 ---

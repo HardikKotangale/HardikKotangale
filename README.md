@@ -126,9 +126,6 @@ I love building practical and impactful tech — from AI-driven systems and full
 ### 📌 Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HardikKotangale&layout=compact&theme=default)
 
-### 📈 Contribution Activity
-![GitHub Stats](https://github-readme-activity-graph.vercel.app/graph?username=HardikKotangale&theme=github)
-
 ---
 
 > ⚡ *"Code with purpose. Design with empathy. Learn relentlessly."*

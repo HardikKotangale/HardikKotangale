@@ -12,7 +12,12 @@ I’m a passionate software engineer and data enthusiast pursuing my Master’s 
 I love building practical and impactful tech — from AI-driven systems and full-stack apps to 3D interactive visualizations.
 
 ---
+## 🧩 Problem Solving Journey
 
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap" alt="Leetcode Stats" />
+</div>
+---
 ## 🛠️ Skills & Tech Stack
 
 ### 👨‍💻 Programming Languages
@@ -46,12 +51,6 @@ I love building practical and impactful tech — from AI-driven systems and full
 ### 🗃️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
----
-
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap" alt="Leetcode Stats" />
-</div>
 
 ---
 ### 💎 Crystal Cavern Exploration (Unity + Shader)  
@@ -118,8 +117,11 @@ I love building practical and impactful tech — from AI-driven systems and full
 
 ## 📊 GitHub Stats
 
-![Hardik's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HardikKotangale&show_icons=true&theme=default)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HardikKotangale&layout=compact)
+### 📌 Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HardikKotangale&layout=compact&theme=default)
+
+### 📈 Contribution Activity
+[GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=HardikKotangale&theme=github)
 
 ---
 

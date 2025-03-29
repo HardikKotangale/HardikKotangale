@@ -1,7 +1,8 @@
 <h1 align="center">🙏Thanks for stopping by! 🙏
 <br>I'm Hardik Kotangale</br>
+<div>
 ![Leetcode Stats](https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap)
-
+</div>
 
 <!--
 **HardikKotangale/HardikKotangale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

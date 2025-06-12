@@ -129,3 +129,15 @@ I love building practical and impactful tech — from AI-driven systems and full
 ---
 
 > ⚡ *"Code with purpose. Design with empathy. Learn relentlessly."*
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Two Pointers
+|  |
+| ------- |
+| [1894-merge-strings-alternately](https://github.com/HardikKotangale/HardikKotangale/tree/master/1894-merge-strings-alternately) |
+## String
+|  |
+| ------- |
+| [1894-merge-strings-alternately](https://github.com/HardikKotangale/HardikKotangale/tree/master/1894-merge-strings-alternately) |
+<!---LeetCode Topics End-->

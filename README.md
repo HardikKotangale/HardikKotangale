@@ -148,5 +148,10 @@ I love building practical and impactful tech — from AI-driven systems and full
 ## Array
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/HardikKotangale/HardikKotangale/tree/master/0605-can-place-flowers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/HardikKotangale/HardikKotangale/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/HardikKotangale/HardikKotangale/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->

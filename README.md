@@ -29,7 +29,7 @@ Multi-agent debate platform — a custom-built Orchestrator agent decides live w
 
 `Next.js` `TypeScript` `Node.js` `PostgreSQL` `Server-Sent Events` `Docker`
 
-### BlockCraft
+### [BlockCraft](https://github.com/HardikKotangale/BlockCraft)
 A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a real-world surface via passthrough cameras using only a controller trigger; each stroke is resampled and extruded in real time into a 3D block. A three-axis accuracy scorer grades shape fidelity, centering, and rotation across 5 shape levels, awarding up to 3 stars per level. Solo build.
 
 `Unity` `OpenXR` `Meta Quest 3` `C#` `Gamification`
@@ -44,22 +44,22 @@ Distributed RAG platform splitting transcription, embedding, and retrieval acros
 
 `Python` `Django` `Celery` `Redis` `PostgreSQL` `pgvector`
 
-### DB2 Workload Simulation Platform
+### [DB2 Workload Simulation Platform](https://github.com/HardikKotangale/DB2_Workload_Simulator.git)
 Concurrent SQL pipelines for IBM Db2 tuning — p50/p95 latency benchmarking, a real-time WebSocket dashboard, and a defect-injection testing framework across 3 service layers.
 
 `Python` `FastAPI` `React` `PostgreSQL` `WebSocket`
 
-### Vizionary
+### [Vizionary](https://github.com/HardikKotangale/Vizionary.git)
 Browser-based code execution environment for Python and R, each user session sandboxed in an isolated Docker container with automated lifecycle management.
 
 `React` `TypeScript` `Flask` `Docker`
 
-### Point of Contact Collaboration API
+### [Point of Contact Collaboration API](https://github.com/HardikKotangale/Point-of-Contact-Collaboration.git)
 RESTful Flask API for internal enterprise contact discovery against a Firebase Realtime Database backend, with API key authentication. Built at the Luddy Hackathon.
 
 `Python` `Flask` `Firebase` `REST APIs`
 
-### LUV2SHOP
+### [LUV2SHOP](https://github.com/HardikKotangale/Luv2Shop)
 Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boot, Hibernate/JPA over MySQL, Angular frontend.
 
 `Java` `Spring Boot` `Hibernate/JPA` `MySQL` `Angular`

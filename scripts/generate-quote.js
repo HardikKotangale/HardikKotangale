@@ -52,40 +52,40 @@ function escapeXml(str) {
 
 function buildSvg(quote, author, mode) {
   const width = 800;
-  const lineHeight = 27;
-  const lines = wrapText(quote, 58);
-  const textBlockHeight = lines.length * lineHeight;
-  const paddingY = 30;
-  const height = Math.max(120, textBlockHeight + paddingY * 2 + 18);
+  const lineHeight = 26;
+  const lines = wrapText(quote, 62);
   const textColor = mode === "light" ? "#1f2328" : "#e6edf3";
+
+  const firstLineY = 30;
+  const lastLineY = firstLineY + (lines.length - 1) * lineHeight;
+  const authorY = lastLineY + 34;
+  const height = authorY + 16;
 
   const textLines = lines
     .map(
       (line, i) =>
-        `<tspan x="56" dy="${i === 0 ? 0 : lineHeight}">${escapeXml(line)}</tspan>`
+        `<tspan x="38" dy="${i === 0 ? 0 : lineHeight}">${escapeXml(line)}</tspan>`
     )
     .join("");
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="${height}" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="0" y1="0" x2="${width}" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="0.5" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#f472b6"/>
     </linearGradient>
-    <linearGradient id="mark" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mark" x1="0" y1="0" x2="34" y2="34" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
   </defs>
 
-  <rect x="0" y="6" width="3" height="${height - 12}" rx="1.5" fill="url(#accent)"/>
+  <text x="0" y="${firstLineY + 6}" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="20" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="url(#mark)" opacity="0.7">&#8220;</text>
+  <text x="38" y="${firstLineY}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="${textColor}">${textLines}</text>
 
-  <text x="56" y="${paddingY + 6}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="${textColor}">${textLines}</text>
-
-  <text x="56" y="${height - 16}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; ${escapeXml(author)}</text>
+  <text x="38" y="${authorY}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; ${escapeXml(author)}</text>
 </svg>`;
 }
 

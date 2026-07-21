@@ -1,157 +1,94 @@
-# 👋 Hi, I'm Hardik Kotangale!
-
-🎓 **Graduate Student | Computer Science @ Indiana University Bloomington**  
-📍 Based in Bloomington, IN | 📧 [hardik.kotangale@gamil.com](mailto:hardik.kotangale@gamil.com)  
-🌐 [LinkedIn](https://www.linkedin.com/in/hardik-kotangale/)
-
----
-
-## 🚀 About Me
-
-I’m a passionate software engineer and data enthusiast pursuing my Master’s in Computer Science.  
-I love building practical and impactful tech — from AI-driven systems and full-stack apps to 3D interactive visualizations.
-
----
-
-## 🧩 Problem Solving Journey
-
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/HardikKotangale?ext=heatmap" alt="Leetcode Stats" />
+
+# Hardik Mahesh Kotangale
+
+**Full-Stack Software Engineer**:- Web · Mobile · AR/VR · Applied AI
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-kotangale)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://hardikotangale.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hardik.kotangale@gmail.com)
+
 </div>
 
 ---
 
-## 🛠️ Skills & Tech Stack
+M.S. Computer Science, Indiana University Bloomington. Currently building a Node.js/React/React Native platform at Project 990, and researched real-time cross-platform AR/VR rendering as a Graduate TA. I move between shipping product and building agentic AI systems  mostly what's needed, not what's trendy.
 
-### 👨‍💻 Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2b%2b&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+<br>
 
-### ⚙️ Libraries & Frameworks
-![ReactJS](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![AngularJS](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-000000?style=flat-square)
+## Projects
 
-### 🧰 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+**[Adversary](http://adversary.duckdns.org/)**
+Multi-agent debate platform — a custom-built Orchestrator agent decides live who speaks, when to summon a specialist, and when to conclude. Native tool-calling, real-time streaming, solo build at the Qwen Cloud / Alibaba Cloud Global AI Hackathon Series.
+`Next.js` `TypeScript` `Node.js` `PostgreSQL` `Server-Sent Events` `Docker`
 
-### 🗃️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+**BlockCraft**
+A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a real-world surface via passthrough cameras using only a controller trigger; each stroke is resampled and extruded in real time into a 3D block. A three-axis accuracy scorer grades shape fidelity, centering, and rotation across 5 shape levels (Triangle → Circle), awarding up to 3 stars per level with an animated final scoreboard. Solo build.
+`Unity` `OpenXR` `Meta Quest 3` `C#` `XR Device Simulator`
 
----
+**[Nexora](https://github.com/HardikKotangale/Nexora)**
+Distributed RAG platform splitting transcription, embedding, and retrieval across 4 independent Celery + Redis workers, pgvector semantic search, LLM inference via Ollama. Built at the Luddy Hackathon.
+`Python` `Django` `Celery` `Redis` `PostgreSQL` `pgvector`
 
-## 💼 Featured Projects
+**[Personal Portfolio](https://hardikotangale.com)**
+A spatial-computing themed site with real-time 3D scenes, glassmorphism UI, and fluid motion design.
+`Next.js 14` `Three.js` `React Three Fiber` `Framer Motion` `Vercel`
 
-### 💎 Crystal Cavern Exploration (Unity + Shader)  
-> **Indiana University Bloomington**  
-> Developed an immersive 3D Unity scene with GPU-shaded crystal clusters, torus knot structures, interactive lighting, and camera systems. Enabled user control through object interaction and dynamic shader manipulation for realistic rendering.
+**DB2 Workload Simulation Platform**
+Concurrent SQL pipelines for IBM Db2 tuning — p50/p95 latency benchmarking, a real-time WebSocket dashboard, and a defect-injection testing framework across 3 service layers.
+`Python` `FastAPI` `React` `PostgreSQL` `WebSocket`
 
----
+**Vizionary**
+Browser-based code execution environment for Python and R — a VS Code-style React/TypeScript editor frontend with a stateless Flask API, each user session sandboxed in an isolated Docker container with automated lifecycle management.
+`React` `TypeScript` `Flask` `Docker`
 
-### 🔁 Point of Contact Collaboration API (Python + Firebase)  
-> **LuddyHackathon 2024**  
-> Built a Python-based REST API with Firebase for real-time contact query handling based on product/repository names. Achieved a 30% speed boost in query time and enhanced cross-team collaboration by 25%.
+**Point of Contact Collaboration API**
+RESTful Flask API for internal enterprise contact discovery — a 3-entity relational data model (employees, products, assignments) against a Firebase Realtime Database backend, with API key authentication. Built at the Luddy Hackathon.
+`Python` `Flask` `Firebase` `REST APIs`
 
----
+**LUV2SHOP**
+Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boot, Hibernate/JPA over MySQL, Angular frontend.
+`Java` `Spring Boot` `Hibernate/JPA` `MySQL` `Angular`
 
-### 📚 Learning Management System (ReactJS + Firebase)  
-> **Oytie Learning IT Training Academy, Pune**  
-> Designed a dynamic and secure LMS web app using React Bootstrap and Firebase for real-time data sync and user authentication. Achieved 95% increase in user engagement and streamlined student-instructor interaction.
+<br>
 
----
+## Stack
 
-### 📷 Automatic Number Plate Recognition (Python + OpenCV)  
-> **AISSMS IOIT, Pune**  
-> Engineered a Python application using OpenCV and OCR to identify and extract license plate data from images. Scalable to large datasets and optimized for accuracy and speed using edge detection and image preprocessing techniques.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 
----
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 
-### 🧠 Blind-O-Voice (Android + Voice APIs)  
-> **AISSMS IOIT, Pune**  
-> Spearheaded the creation of an Android app tailored for visually impaired users. Enabled voice-based interaction for messaging, calling, and alarms. Boosted accessibility and independence for users through extensive user testing and optimization.
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
----
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
-### 🖌️ AI-Paint (Python + OpenCV + Gesture Recognition)  
-> **AISSMS IOIT, Pune**  
-> Developed an AI-powered paint app that recognizes hand gestures for brush control and color selection using computer vision. Improved responsiveness by 25% and reduced gesture misclassification through ML techniques.
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
+![Meta Quest](https://img.shields.io/badge/Meta_Quest-000000?style=flat&logo=meta&logoColor=white)
 
----
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-### 🛒 Luv2Shop – E-commerce Platform (AngularJS + REST API)  
-> **AISSMS IOIT, Pune**  
-> Built a feature-rich shopping platform with AngularJS frontend and RESTful API backend. Designed responsive UI, integrated order and customer handling systems, and ensured smooth data flow between components.
+<br>
 
----
+<div align="center">
 
-### 🌐 CESA Department Website (HTML, CSS, JS, SQL)  
-> **AISSMS IOIT, Pune**  
-> Led a 5–6 member team to build the department’s website with dynamic team listings, event displays, and testimonials. Focused on modular design, SQL-backed data management, accessibility, and cross-browser compatibility.
+Open to Software Engineering and AI Engineering roles.
+![3D Contributions](https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/main/profile-3d-contrib/profile-night-rainbow.svg)
 
-
----
-
-## 🏆 Achievements & Certifications
-
-- 🏅 Awarded **"Most Difficult Project Implementation"** in Advanced Computer Graphics @ IU  
-- 🔝 Ranked in **Top 10%** at SPPU; Veritas Illuminate Top 3%  
-- 🧾 **Publications** on Alzheimer detection and AI-based Parking Systems  
-- 🎓 Certifications:  
-  - **AWS ML Foundations & Cloud**  
-  - **Cybersecurity (CISCO)**  
-  - **Python for Everybody (Coursera)**  
-  - **Oracle PL/SQL**  
-
----
-
-## 📊 GitHub Stats
-
-### 📌 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HardikKotangale&layout=compact&theme=default)
-
----
-
-> ⚡ *"Code with purpose. Design with empathy. Learn relentlessly."*
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [1894-merge-strings-alternately](https://github.com/HardikKotangale/HardikKotangale/tree/master/1894-merge-strings-alternately) |
-## String
-|  |
-| ------- |
-| [1146-greatest-common-divisor-of-strings](https://github.com/HardikKotangale/HardikKotangale/tree/master/1146-greatest-common-divisor-of-strings) |
-| [1894-merge-strings-alternately](https://github.com/HardikKotangale/HardikKotangale/tree/master/1894-merge-strings-alternately) |
-## Math
-|  |
-| ------- |
-| [1146-greatest-common-divisor-of-strings](https://github.com/HardikKotangale/HardikKotangale/tree/master/1146-greatest-common-divisor-of-strings) |
-## Array
-|  |
-| ------- |
-| [0605-can-place-flowers](https://github.com/HardikKotangale/HardikKotangale/tree/master/0605-can-place-flowers) |
-| [1528-kids-with-the-greatest-number-of-candies](https://github.com/HardikKotangale/HardikKotangale/tree/master/1528-kids-with-the-greatest-number-of-candies) |
-## Greedy
-|  |
-| ------- |
-| [0605-can-place-flowers](https://github.com/HardikKotangale/HardikKotangale/tree/master/0605-can-place-flowers) |
-<!---LeetCode Topics End-->
+</div>

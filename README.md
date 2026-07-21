@@ -34,15 +34,15 @@ A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a
 
 `Unity` `OpenXR` `Meta Quest 3` `C#` `Gamification`
 
+### [Bloomington Waste Dashboard](https://github.com/HardikKotangale/Bloomington-Dashboard)
+Data visualization dashboard exploring spatial, seasonal, and service-based waste-management patterns across Bloomington, Indiana — KPI summaries, trend charts, and a map view across Trash, Recycling, and Yard Waste service lines.
+
+`React` `Vite` `Tailwind CSS` `Chart.js` `Leaflet`
+
 ### [Nexora](https://github.com/HardikKotangale/Nexora)
 Distributed RAG platform splitting transcription, embedding, and retrieval across 4 independent Celery + Redis workers, pgvector semantic search, LLM inference via Ollama. Built at the Luddy Hackathon.
 
 `Python` `Django` `Celery` `Redis` `PostgreSQL` `pgvector`
-
-### [Personal Portfolio](https://hardikotangale.com)
-A spatial-computing themed site with real-time 3D scenes, glassmorphism UI, and fluid motion design.
-
-`Next.js 14` `Three.js` `React Three Fiber` `Framer Motion` `Vercel`
 
 ### DB2 Workload Simulation Platform
 Concurrent SQL pipelines for IBM Db2 tuning — p50/p95 latency benchmarking, a real-time WebSocket dashboard, and a defect-injection testing framework across 3 service layers.

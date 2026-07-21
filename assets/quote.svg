@@ -26,7 +26,7 @@
 
   <text x="30" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="url(#border)" opacity="0.55">&#8220;</text>
 
-  <text x="70" y="52" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="#e6edf3"><tspan x="70" dy="0">Walking on water and developing software from a specification are easy if both</tspan><tspan x="70" dy="26">are frozen.</tspan></text>
+  <text x="70" y="52" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="#e6edf3"><tspan x="70" dy="0">Walking on water and developing software from a</tspan><tspan x="70" dy="26">specification are easy if both are frozen.</tspan></text>
 
   <text x="70" y="138" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#a78bfa">&#8212; Edward V. Berard</text>
 </svg>

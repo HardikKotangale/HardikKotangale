@@ -73,7 +73,7 @@ function escapeXml(str) {
 function buildSvg(quote, author) {
   const width = 800;
   const lineHeight = 26;
-  const lines = wrapText(quote, 78);
+  const lines = wrapText(quote, 60);
   const textBlockHeight = lines.length * lineHeight;
   const paddingY = 44;
   const height = Math.max(150, textBlockHeight + paddingY * 2 + 24);

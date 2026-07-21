@@ -1,48 +1,28 @@
 // Generates assets/quote.svg — a custom, self-hosted "quote of the day" card
 // styled to match the dark / glassmorphism aesthetic of hardikotangale.com.
-// Picks deterministically by day-of-year so it stays stable for 24h, then
-// rotates on the next scheduled run (see .github/workflows/quote.yml).
+// The quote itself is fetched live from a public API (ZenQuotes' "today"
+// endpoint, which returns the same quote all day and rotates at midnight UTC)
+// so it is never a hardcoded/predefined list. See .github/workflows/quote.yml
+// for the daily schedule that reruns this script.
 
 const fs = require("fs");
 const path = require("path");
 
-const QUOTES = [
-  ["Simplicity is prerequisite for reliability.", "Edsger W. Dijkstra"],
-  ["Premature optimization is the root of all evil.", "Donald Knuth"],
-  ["Programs must be written for people to read, and only incidentally for machines to execute.", "Harold Abelson"],
-  ["The best way to predict the future is to invent it.", "Alan Kay"],
-  ["Make it work, make it right, make it fast.", "Kent Beck"],
-  ["Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Martin Fowler"],
-  ["There are two ways to write error-free programs; only the third one works.", "Alan J. Perlis"],
-  ["The most disastrous thing that you can ever learn is your first programming language.", "Alan Kay"],
-  ["Controlling complexity is the essence of computer programming.", "Brian Kernighan"],
-  ["Debugging is twice as hard as writing the code in the first place.", "Brian Kernighan"],
-  ["First, solve the problem. Then, write the code.", "John Johnson"],
-  ["Talk is cheap. Show me the code.", "Linus Torvalds"],
-  ["Good code is its own best documentation.", "Steve McConnell"],
-  ["It's not a bug, it's an undocumented feature.", "Anonymous"],
-  ["Deleted code is debugged code.", "Jeff Sickel"],
-  ["Fix the cause, not the symptom.", "Steve Maguire"],
-  ["The only way to go fast is to go well.", "Robert C. Martin"],
-  ["Code never lies, comments sometimes do.", "Ron Jeffries"],
-  ["Testing shows the presence, not the absence of bugs.", "Edsger W. Dijkstra"],
-  ["Simplicity is the soul of efficiency.", "Austin Freeman"],
-  ["Given enough eyeballs, all bugs are shallow.", "Linus Torvalds"],
-  ["The function of good software is to make the complex appear simple.", "Grady Booch"],
-  ["Walking on water and developing software from a specification are easy if both are frozen.", "Edward V. Berard"],
-  ["Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.", "Antoine de Saint-Exupery"],
-  ["Measuring programming progress by lines of code is like measuring aircraft building progress by weight.", "Bill Gates"],
-  ["Software is a great combination of artistry and engineering.", "Bill Gates"],
-  ["A ship in port is safe, but that's not what ships are built for.", "Grace Hopper"],
-  ["One of the best programming skills you can have is knowing when to walk away for a bit.", "Oyinda Wongi"],
-  ["Learning never exhausts the mind.", "Leonardo da Vinci"],
-  ["Move fast with stable infrastructure.", "Mark Zuckerberg"],
-];
+const QUOTE_API_URL = "https://zenquotes.io/api/today";
 
-function dayOfYear(date) {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date - start;
-  return Math.floor(diff / 86400000);
+async function fetchQuote() {
+  const res = await fetch(QUOTE_API_URL, {
+    headers: { "User-Agent": "hardikotangale-readme-quote/1.0" },
+  });
+  if (!res.ok) {
+    throw new Error(`Quote API responded with ${res.status}`);
+  }
+  const data = await res.json();
+  const entry = Array.isArray(data) ? data[0] : null;
+  if (!entry || !entry.q || !entry.a) {
+    throw new Error("Quote API returned an unexpected payload");
+  }
+  return { quote: entry.q, author: entry.a };
 }
 
 function wrapText(text, maxChars) {
@@ -119,15 +99,17 @@ function buildSvg(quote, author) {
 </svg>`;
 }
 
-function main() {
-  const index = dayOfYear(new Date()) % QUOTES.length;
-  const [quote, author] = QUOTES[index];
+async function main() {
+  const { quote, author } = await fetchQuote();
   const svg = buildSvg(quote, author);
 
   const outDir = path.join(__dirname, "..", "assets");
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, "quote.svg"), svg);
-  console.log(`Wrote quote #${index}: "${quote}" — ${author}`);
+  console.log(`Wrote quote: "${quote}" — ${author}`);
 }
 
-main();
+main().catch((err) => {
+  console.error("Failed to generate quote card:", err.message);
+  process.exit(1);
+});

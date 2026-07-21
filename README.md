@@ -2,17 +2,23 @@
 
 # Hardik Mahesh Kotangale
 
-**Full-Stack Software Engineer**:- Web · Mobile · AR/VR · Applied AI
+**Full-Stack Software Engineer** — Web · Mobile · AR/VR · Applied AI
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-kotangale)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://hardikotangale.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hardik.kotangale@gmail.com)
 
+<br>
+
+![Quote of the Day](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
 </div>
 
 ---
 
-M.S. Computer Science, Indiana University Bloomington. Currently building a Node.js/React/React Native platform at Project 990, and researched real-time cross-platform AR/VR rendering as a Graduate TA. I move between shipping product and building agentic AI systems  mostly what's needed, not what's trendy.
+M.S. Computer Science, Indiana University Bloomington. Currently a Software Engineer at Project 990, building a Node.js/React/React Native platform with LLM-based grant matching and gamified engagement features. Previously a Graduate Research/Teaching Assistant at IU, building cross-platform AR/VR/MR applications.
+
+I move between shipping product and building agentic AI systems — mostly what's needed, not what's trendy.
 
 <br>
 
@@ -23,8 +29,8 @@ Multi-agent debate platform — a custom-built Orchestrator agent decides live w
 `Next.js` `TypeScript` `Node.js` `PostgreSQL` `Server-Sent Events` `Docker`
 
 **BlockCraft**
-A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a real-world surface via passthrough cameras using only a controller trigger; each stroke is resampled and extruded in real time into a 3D block. A three-axis accuracy scorer grades shape fidelity, centering, and rotation across 5 shape levels (Triangle → Circle), awarding up to 3 stars per level with an animated final scoreboard. Solo build.
-`Unity` `OpenXR` `Meta Quest 3` `C#` `XR Device Simulator`
+A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a real-world surface via passthrough cameras using only a controller trigger; each stroke is resampled and extruded in real time into a 3D block. A three-axis accuracy scorer grades shape fidelity, centering, and rotation across 5 shape levels, awarding up to 3 stars per level. Solo build.
+`Unity` `OpenXR` `Meta Quest 3` `C#` `Gamification`
 
 **[Nexora](https://github.com/HardikKotangale/Nexora)**
 Distributed RAG platform splitting transcription, embedding, and retrieval across 4 independent Celery + Redis workers, pgvector semantic search, LLM inference via Ollama. Built at the Luddy Hackathon.
@@ -39,11 +45,11 @@ Concurrent SQL pipelines for IBM Db2 tuning — p50/p95 latency benchmarking, a 
 `Python` `FastAPI` `React` `PostgreSQL` `WebSocket`
 
 **Vizionary**
-Browser-based code execution environment for Python and R — a VS Code-style React/TypeScript editor frontend with a stateless Flask API, each user session sandboxed in an isolated Docker container with automated lifecycle management.
+Browser-based code execution environment for Python and R, each user session sandboxed in an isolated Docker container with automated lifecycle management.
 `React` `TypeScript` `Flask` `Docker`
 
 **Point of Contact Collaboration API**
-RESTful Flask API for internal enterprise contact discovery — a 3-entity relational data model (employees, products, assignments) against a Firebase Realtime Database backend, with API key authentication. Built at the Luddy Hackathon.
+RESTful Flask API for internal enterprise contact discovery against a Firebase Realtime Database backend, with API key authentication. Built at the Luddy Hackathon.
 `Python` `Flask` `Firebase` `REST APIs`
 
 **LUV2SHOP**
@@ -86,9 +92,14 @@ Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boo
 
 <br>
 
+## 🐍 Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake.svg)
+
+<br>
+
 <div align="center">
 
 Open to Software Engineering and AI Engineering roles.
-![3D Contributions](https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/main/profile-3d-contrib/profile-night-rainbow.svg)
 
 </div>

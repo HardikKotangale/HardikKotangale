@@ -50,62 +50,52 @@ function escapeXml(str) {
     .replace(/"/g, "&quot;");
 }
 
-function buildSvg(quote, author) {
+function buildSvg(quote, author, mode) {
   const width = 800;
-  const lineHeight = 26;
-  const lines = wrapText(quote, 60);
+  const lineHeight = 27;
+  const lines = wrapText(quote, 58);
   const textBlockHeight = lines.length * lineHeight;
-  const paddingY = 44;
-  const height = Math.max(150, textBlockHeight + paddingY * 2 + 24);
+  const paddingY = 30;
+  const height = Math.max(120, textBlockHeight + paddingY * 2 + 18);
+  const textColor = mode === "light" ? "#1f2328" : "#e6edf3";
 
   const textLines = lines
     .map(
       (line, i) =>
-        `<tspan x="70" dy="${i === 0 ? 0 : lineHeight}">${escapeXml(line)}</tspan>`
+        `<tspan x="56" dy="${i === 0 ? 0 : lineHeight}">${escapeXml(line)}</tspan>`
     )
     .join("");
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="border" x1="0" y1="0" x2="${width}" y2="${height}" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="${height}" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="0.5" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#f472b6"/>
     </linearGradient>
-    <linearGradient id="bg" x1="0" y1="0" x2="${width}" y2="${height}" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="mark" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect x="1.5" y="1.5" width="${width - 3}" height="${height - 3}" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.4"/>
+  <rect x="0" y="6" width="3" height="${height - 12}" rx="1.5" fill="url(#accent)"/>
 
-  <circle cx="${width - 36}" cy="30" r="2.5" fill="#22d3ee" filter="url(#glow)"/>
-  <circle cx="${width - 54}" cy="30" r="2.5" fill="#a78bfa" filter="url(#glow)"/>
-  <circle cx="${width - 72}" cy="30" r="2.5" fill="#f472b6" filter="url(#glow)"/>
+  <text x="20" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="30" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="url(#border)" opacity="0.55">&#8220;</text>
+  <text x="56" y="${paddingY + 6}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="${textColor}">${textLines}</text>
 
-  <text x="70" y="52" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="#e6edf3">${textLines}</text>
-
-  <text x="70" y="${height - 26}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#a78bfa">&#8212; ${escapeXml(author)}</text>
+  <text x="56" y="${height - 16}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; ${escapeXml(author)}</text>
 </svg>`;
 }
 
 async function main() {
   const { quote, author } = await fetchQuote();
-  const svg = buildSvg(quote, author);
 
   const outDir = path.join(__dirname, "..", "assets");
   fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, "quote.svg"), svg);
+  fs.writeFileSync(path.join(outDir, "quote.svg"), buildSvg(quote, author, "dark"));
+  fs.writeFileSync(path.join(outDir, "quote-light.svg"), buildSvg(quote, author, "light"));
   console.log(`Wrote quote: "${quote}" — ${author}`);
 }
 

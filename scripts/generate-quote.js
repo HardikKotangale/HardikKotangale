@@ -52,13 +52,13 @@ function escapeXml(str) {
 
 function buildSvg(quote, author, mode) {
   const width = 800;
-  const lineHeight = 26;
-  const lines = wrapText(quote, 62);
+  const lineHeight = 20;
+  const lines = wrapText(quote, 92);
   const textColor = mode === "light" ? "#1f2328" : "#e6edf3";
 
-  const firstLineY = 30;
+  const firstLineY = 26;
   const lastLineY = firstLineY + (lines.length - 1) * lineHeight;
-  const authorY = lastLineY + 34;
+  const authorY = lastLineY + 30;
   const height = authorY + 16;
 
   const textLines = lines
@@ -81,9 +81,9 @@ function buildSvg(quote, author, mode) {
     </linearGradient>
   </defs>
 
-  <text x="0" y="${firstLineY + 6}" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="url(#mark)" opacity="0.7">&#8220;</text>
+  <text x="0" y="${firstLineY + 4}" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="${firstLineY}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="${textColor}">${textLines}</text>
+  <text x="38" y="${firstLineY}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="${textColor}">${textLines}</text>
 
   <text x="38" y="${authorY}" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; ${escapeXml(author)}</text>
 </svg>`;

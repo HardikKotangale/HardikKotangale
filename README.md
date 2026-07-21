@@ -2,30 +2,24 @@
 
 # Hardik Mahesh Kotangale
 
-**Full-Stack Software Engineer** — Web · Mobile · AR/VR · Applied AI
+**Full-Stack Software Engineer**  Web · Mobile · AR/VR · Applied AI
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-kotangale)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://hardikotangale.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hardik.kotangale@gmail.com)
-
-<br>
 
 ![Quote of the Day](assets/quote.svg)
 
 </div>
 
 ---
-
 M.S. Computer Science, Indiana University Bloomington. Currently a Software Engineer at Project 990, building a Node.js/React/React Native platform with LLM-based grant matching and gamified engagement features. Previously a Graduate Research/Teaching Assistant at IU, building cross-platform AR/VR/MR applications.
 
-I move between shipping product and building agentic AI systems — mostly what's needed, not what's trendy.
-
-<br>
-
+I move between shipping product and building agentic AI systems mostly what's needed, not what's trendy.
 ## Projects
 
 ### [Adversary](http://adversary.duckdns.org/)
-Multi-agent debate platform — a custom-built Orchestrator agent decides live who speaks, when to summon a specialist, and when to conclude. Native tool-calling, real-time streaming, solo build at the Qwen Cloud / Alibaba Cloud Global AI Hackathon Series.
+Multi-agent debate platform a custom-built Orchestrator agent decides live who speaks, when to summon a specialist, and when to conclude. Native tool-calling, real-time streaming, solo build at the Qwen Cloud / Alibaba Cloud Global AI Hackathon Series.
 
 `Next.js` `TypeScript` `Node.js` `PostgreSQL` `Server-Sent Events` `Docker`
 
@@ -35,7 +29,7 @@ A children's AR puzzle game for Meta Quest 3. Players hand-draw 2D shapes onto a
 `Unity` `OpenXR` `Meta Quest 3` `C#` `Gamification`
 
 ### [Bloomington Waste Dashboard](https://github.com/HardikKotangale/Bloomington-Dashboard)
-Data visualization dashboard exploring spatial, seasonal, and service-based waste-management patterns across Bloomington, Indiana — KPI summaries, trend charts, and a map view across Trash, Recycling, and Yard Waste service lines.
+Data visualization dashboard exploring spatial, seasonal, and service-based waste-management patterns across Bloomington, Indiana:- KPI summaries, trend charts, and a map view across Trash, Recycling, and Yard Waste service lines.
 
 `React` `Vite` `Tailwind CSS` `Chart.js` `Leaflet`
 
@@ -45,7 +39,7 @@ Distributed RAG platform splitting transcription, embedding, and retrieval acros
 `Python` `Django` `Celery` `Redis` `PostgreSQL` `pgvector`
 
 ### [DB2 Workload Simulation Platform](https://github.com/HardikKotangale/DB2_Workload_Simulator.git)
-Concurrent SQL pipelines for IBM Db2 tuning — p50/p95 latency benchmarking, a real-time WebSocket dashboard, and a defect-injection testing framework across 3 service layers.
+Concurrent SQL pipelines for IBM Db2 tuning p50/p95 latency benchmarking, a real-time WebSocket dashboard, and a defect-injection testing framework across 3 service layers.
 
 `Python` `FastAPI` `React` `PostgreSQL` `WebSocket`
 
@@ -60,7 +54,7 @@ RESTful Flask API for internal enterprise contact discovery against a Firebase R
 `Python` `Flask` `Firebase` `REST APIs`
 
 ### [LUV2SHOP](https://github.com/HardikKotangale/Luv2Shop)
-Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boot, Hibernate/JPA over MySQL, Angular frontend.
+Full-stack e-commerce platform 3-layer OOP architecture in Java + Spring Boot, Hibernate/JPA over MySQL, Angular frontend.
 
 `Java` `Spring Boot` `Hibernate/JPA` `MySQL` `Angular`
 

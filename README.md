@@ -22,7 +22,7 @@ I move between shipping product and building agentic AI systems — mostly what'
 
 <br>
 
-## 🚀 Projects
+## Projects
 
 ### [Adversary](http://adversary.duckdns.org/)
 Multi-agent debate platform — a custom-built Orchestrator agent decides live who speaks, when to summon a specialist, and when to conclude. Native tool-calling, real-time streaming, solo build at the Qwen Cloud / Alibaba Cloud Global AI Hackathon Series.
@@ -66,7 +66,7 @@ Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boo
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -106,7 +106,7 @@ Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boo
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake-dark.svg" />

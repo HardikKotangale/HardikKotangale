@@ -1,0 +1,32 @@
+<svg width="800" height="164" viewBox="0 0 800 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="800" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="797" height="161" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="1.4"/>
+
+  <circle cx="764" cy="30" r="2.5" fill="#22d3ee" filter="url(#glow)"/>
+  <circle cx="746" cy="30" r="2.5" fill="#a78bfa" filter="url(#glow)"/>
+  <circle cx="728" cy="30" r="2.5" fill="#f472b6" filter="url(#glow)"/>
+
+  <text x="30" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="url(#border)" opacity="0.55">&#8220;</text>
+
+  <text x="70" y="52" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="17" font-style="italic" fill="#e6edf3"><tspan x="70" dy="0">Walking on water and developing software from a specification are easy if both</tspan><tspan x="70" dy="26">are frozen.</tspan></text>
+
+  <text x="70" y="138" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#a78bfa">&#8212; Edward V. Berard</text>
+</svg>

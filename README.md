@@ -10,7 +10,7 @@
 
 <br>
 
-![Quote of the Day](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+![Quote of the Day](assets/quote.svg)
 
 </div>
 
@@ -94,7 +94,11 @@ Full-stack e-commerce platform — 3-layer OOP architecture in Java + Spring Boo
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/HardikKotangale/HardikKotangale/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <br>
 

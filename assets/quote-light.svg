@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">Be kind, for everyone you meet is fighting a harder battle.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">If you let your head get too big, it'll break your neck.</tspan></text>
 
-  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Plato</text>
+  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Elvis Presley</text>
 </svg>

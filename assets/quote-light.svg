@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">A thing constructed can only be loved after it is constructed; but a thing created is loved</tspan><tspan x="38" dy="20">before it exists.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">Bad things are not the worst things that an happen to us. NOTHING is the worst thing that</tspan><tspan x="38" dy="20">can happen to us.</tspan></text>
 
-  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Charles Dickens</text>
+  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Richard Bach</text>
 </svg>

@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#e6edf3"><tspan x="38" dy="0">Force has no place where there is need of skill.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#e6edf3"><tspan x="38" dy="0">Do good by stealth, and blush to find it fame.</tspan></text>
 
-  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Herodotus</text>
+  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Alexander Pope</text>
 </svg>

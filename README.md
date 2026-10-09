@@ -9,9 +9,9 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hardik.kotangale@gmail.com)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/quote.svg?v=202610081228" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/quote-light.svg?v=202610081228" />
-  <img alt="Quote of the Day" src="assets/quote.svg?v=202610081228" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quote.svg?v=202610091216" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/quote-light.svg?v=202610091216" />
+  <img alt="Quote of the Day" src="assets/quote.svg?v=202610091216" />
 </picture>
 
 </div>

@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">The things I carry are my thoughts. That's it. They are the only weight. My thoughts</tspan><tspan x="38" dy="20">determine whether I am free and light or burdened.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">People spend too much time doing and not enough time thinking about what they should be</tspan><tspan x="38" dy="20">doing.</tspan></text>
 
-  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Kamal Ravikant</text>
+  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Naval Ravikant</text>
 </svg>

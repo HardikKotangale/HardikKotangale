@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#e6edf3"><tspan x="38" dy="0">It isn't what you have or who you are or where you are or what you are doing that makes you</tspan><tspan x="38" dy="20">happy or unhappy. It is what you think about it.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#e6edf3"><tspan x="38" dy="0">A random act of kindness, no matter how small, can make a tremendous impact on someone</tspan><tspan x="38" dy="20">else's life.</tspan></text>
 
-  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Dale Carnegie</text>
+  <text x="38" y="76" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Roy T. Bennett</text>
 </svg>

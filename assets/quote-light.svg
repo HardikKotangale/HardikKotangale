@@ -13,7 +13,7 @@
 
   <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="url(#mark)" opacity="0.7">&#8220;</text>
 
-  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">The weak can never forgive. Forgiveness is the attribute of the strong.</tspan></text>
+  <text x="38" y="26" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" font-style="italic" fill="#1f2328"><tspan x="38" dy="0">I dream my painting and I paint my dream.</tspan></text>
 
-  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Mahatma Gandhi</text>
+  <text x="38" y="56" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#accent)">&#8212; Vincent van Gogh</text>
 </svg>
